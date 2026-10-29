@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FrameFind</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>FrameFind</h1>
+    <p>Discover inspiration, one image at a time.</p>
+
+    <form id="search-form">
+      <label for="search-input">Search images:</label>
+      <input id="search-input" type="search" placeholder="Search images...">
+      <button type="button" id="search-button">Search</button>
+      <button type="button" id="clear-button">Clear</button>
+    </form>
+
+    <div class="categories">
+      <button type="button">Nature</button>
+      <button type="button">Cities</button>
+      <button type="button">Animals</button>
+    </div>
+  </header>
+
+  <main>
+    <p id="status">Your discoveries will appear here.</p>
+    <section id="results"></section>
+    <div id="empty-state">
+      <h2>Your gallery is waiting!</h2>
+      <p>Search for a topic to discover amazing images.</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
